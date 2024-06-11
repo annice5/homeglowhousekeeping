@@ -31,7 +31,7 @@ body {
 }
 
 span{
-    color: rgb(7, 173, 96);
+    color: #89BE60;
     size: 30px;
 }
 
@@ -76,7 +76,7 @@ span{
 }
 
 .headerbtn{
-    background-color: rgb(7, 173, 96);
+    background-color: #89BE60;
     padding: 10px 20px;
     border-radius: 2rem;
     border: none;
@@ -107,5 +107,45 @@ span{
 
 .sec1 img{
     width: 40vw;
-    
+    margin-left: 5rem;
+    margin-top: 5rem; 
 }
+
+.sec1text{
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+
+.sec1text h2{
+    font-family: cursive;
+    color:#293890;
+    font-size: 40px;
+}
+
+.sec1text h4{
+    font-family: monospace;
+    font-size: 20px;
+    color: #89BE60 ;
+}
+
+.sec1text p{
+    font-size: 20px;
+    color: #666666;
+}
+
+.sec2 h3{
+    text-align: center;
+    font-size: 30px;
+    color: #293890 ;
+    margin-top: 6rem;
+
+}
+
+.sec2img{
+    display: flex;
+    margin-top: 3rem;
+    width: auto;
+    height: 25vh;
+    margin-left: 5rem;
+    
+    
