@@ -1,0 +1,111 @@
+body {
+    overflow-x: hidden;
+}
+
+
+.headerbg{
+    background-image: url(../img/redding-cleaning-company.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 3rem;
+    margin: -10px;
+    
+}
+
+
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    /* background-color: rgb(7, 173, 96); */
+    /* padding left: 3rem;  */
+    text-align: center;
+}
+
+span{
+    color: rgb(7, 173, 96);
+    size: 30px;
+}
+
+.ullist{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navli{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navli:hover {
+    color: rgb(7, 173, 96);
+}
+
+
+.headertextandbtn{
+    
+    margin-top: 6rem;
+    margin-left: 10rem;
+    /* margin-bottom: 4rem; */
+    }
+
+.headertext h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 50px;
+}
+
+.headertext p{
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 5px;
+
+
+}
+
+.headerbtn{
+    background-color: rgb(7, 173, 96);
+    padding: 10px 20px;
+    border-radius: 2rem;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+.headerbtn a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.headerbtn:hover{
+    background-color: transparent;
+    border: solid white;
+}
+
+.image-div img {
+    margin-top: -80px;
+    width: 100vw;
+    margin-left: -10px;
+}
+
+.sec1{
+    display: flex;
+}
+
+.sec1 img{
+    width: 40vw;
+    
+}
