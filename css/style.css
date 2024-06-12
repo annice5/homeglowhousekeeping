@@ -3,23 +3,23 @@ body {
 }
 
 
-.headerbg{
+.headerbg {
     background-image: url(../img/redding-cleaning-company.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     padding: 2rem 3rem;
     margin: -10px;
-    
+
 }
 
 
-.navlinks{
+.navlinks {
     display: flex;
     justify-content: space-between;
 }
 
-#logo{
+#logo {
     text-decoration: none;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,18 +30,18 @@ body {
     text-align: center;
 }
 
-span{
+span {
     color: #89BE60;
     size: 30px;
 }
 
-.ullist{
+.ullist {
     display: flex;
     list-style: none;
     gap: 30px;
 }
 
-.navli{
+.navli {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -52,12 +52,12 @@ span{
 }
 
 
-.headertextandbtn{
-    
+.headertextandbtn {
+
     margin-top: 6rem;
     margin-left: 10rem;
     /* margin-bottom: 4rem; */
-    }
+}
 
 .headertext h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -65,7 +65,7 @@ span{
     font-size: 50px;
 }
 
-.headertext p{
+.headertext p {
     font-family: sans-serif;
     font-size: large;
     color: white;
@@ -75,9 +75,9 @@ span{
 
 }
 
-.headerbtn{
+.headerbtn {
     background-color: #89BE60;
-    padding: 10px 20px;
+    padding: 15px;
     border-radius: 2rem;
     border: none;
     font-size: 15px;
@@ -90,7 +90,7 @@ span{
     font-size: large;
 }
 
-.headerbtn:hover{
+.headerbtn:hover {
     background-color: transparent;
     border: solid white;
 }
@@ -101,51 +101,165 @@ span{
     margin-left: -10px;
 }
 
-.sec1{
+.sec1 {
     display: flex;
 }
 
-.sec1 img{
+.sec1 img {
     width: 40vw;
     margin-left: 5rem;
-    margin-top: 5rem; 
+    margin-top: 5rem;
 }
 
-.sec1text{
+.sec1text {
     margin-left: 8rem;
     margin-top: 3rem;
 }
 
-.sec1text h2{
+.sec1text h2 {
     font-family: cursive;
-    color:#293890;
+    color: #293890;
     font-size: 40px;
 }
 
-.sec1text h4{
+.sec1text h4 {
     font-family: monospace;
     font-size: 20px;
-    color: #89BE60 ;
+    color: #89BE60;
 }
 
-.sec1text p{
+.sec1text p {
     font-size: 20px;
     color: #666666;
 }
 
-.sec2 h3{
+
+
+.sec2 h3 {
     text-align: center;
     font-size: 30px;
-    color: #293890 ;
-    margin-top: 6rem;
+    color: #293890;
+    margin-top: 7rem;
 
 }
 
-.sec2img{
+
+
+.sec2img {
     display: flex;
+    margin-top: 10px;
+    width: 10vw;
+    height: 20vh;
+    margin-left: 14rem;
+}
+
+
+
+
+
+.sec3 h3 {
+    margin-top: 10rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.637);
+
+}
+
+.sec3 p {
+    text-align: left;
+    margin-left: 20rem;
+    font-size: 18px;
     margin-top: 3rem;
-    width: auto;
-    height: 25vh;
-    margin-left: 5rem;
-    
-    
+
+}
+
+.sec3text {
+    background-color: #2939907c;
+    padding-bottom: 2rem;
+    margin: -10px;
+
+
+
+}
+
+.sec3text h1 {
+    margin-top: 10rem;
+    text-align: center;
+    padding-top: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 5px;
+
+}
+
+#btn {
+    margin-top: 3rem;
+    margin-left: 38rem;
+    border-radius: 2rem;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    background-color: #293890;
+}
+
+#btn a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+#btn:hover {
+    background-color: transparent;
+    border: solid black;
+}
+
+.sec4text h1 {
+    margin-top: 10rem;
+    text-align: center;
+    padding-top: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+.sec4text {
+    background-color: #2939907c;
+    padding-bottom: 2rem;
+    margin: -10px;
+}
+
+.sec4 h4 {
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.sec4one {
+     margin: 4rem 10rem; 
+     gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.sec4one img {
+    width: 5vw;
+    height: 5vh;
+}
+
+.sec4one h4{
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec4one p{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.527);
+}
