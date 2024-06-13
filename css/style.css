@@ -133,24 +133,53 @@ span {
     color: #666666;
 }
 
+.sec2text{
+    background-image: url(../img/Depositphotos_76816855_l-2015-min.jpg);
+    /* background-color: #2939907c; */
+    padding:10rem ;
+    margin-top: 15rem;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
 
+.sec2text h1{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgba(0, 0, 0, 0.863);
+    font-size: 50px;
+    margin-left: 10rem;
+    
+    
 
-.sec2 h3 {
-    text-align: center;
-    font-size: 30px;
-    color: #293890;
-    margin-top: 7rem;
+    
 
 }
 
 
 
-.sec2img {
-    display: flex;
-    margin-top: 10px;
-    width: 10vw;
-    height: 20vh;
-    margin-left: 14rem;
+/* .sec2 h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #293890;
+    margin-top: 10rem;
+
+} */
+
+
+
+.sec2 img {
+    width: 15vw;
+    height: 18vh;
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+.sec2{
+    align-items: center;
+}
+
+.sec3{
+    margin-top: 10rem;
 }
 
 
@@ -175,33 +204,31 @@ span {
 }
 
 .sec3text {
-    background-color: #2939907c;
-    padding-bottom: 2rem;
-    margin: -10px;
-
-
-
+    background-image: url(../img/Depositphotos_77862490_l-2015-min.jpg);
+    /* background-color: #2939907c; */
+    padding:10rem ;
+    margin-top: 15rem;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .sec3text h1 {
-    margin-top: 10rem;
-    text-align: center;
-    padding-top: 5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color:  rgba(0, 0, 0, 0.863);
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 22rem;
+    
 
 }
 
 #btn {
     margin-top: 3rem;
-    margin-left: 38rem;
+    margin-left: 35rem;
     border-radius: 2rem;
     padding: 15px;
     font-size: 15px;
     border: none;
-    background-color: #293890;
+    background-color: #89BE60;
 }
 
 #btn a {
@@ -217,23 +244,30 @@ span {
 }
 
 .sec4text h1 {
-    margin-top: 10rem;
-    text-align: center;
-    padding-top: 5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: rgba(0, 0, 0, 0.863);
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 20rem;
+    
+    
+    
+    
+
 }
 
+
 .sec4text {
-    background-color: #2939907c;
-    padding-bottom: 2rem;
-    margin: -10px;
+    background-image: url(../img/RM+Banner+Madison-min.jpg);
+    /* background-color: #2939907c; */
+    padding:5rem;
+    margin-top: 15rem;
+    margin-left: -10px;
+    margin-right: -10px;
+    
 }
 
 .sec4 h4 {
-    margin-top: 5rem;
+    margin-top: 6rem;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -241,8 +275,8 @@ span {
 }
 
 .sec4one {
-     margin: 4rem 10rem; 
-     gap: 80px;
+    margin: 4rem 10rem;
+    gap: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -254,12 +288,89 @@ span {
     height: 5vh;
 }
 
-.sec4one h4{
+.sec4one h4 {
     font-family: cursive;
     color: rgba(0, 0, 0, 0.61);
 }
 
-.sec4one p{
+.sec4one p {
     font-style: italic;
     color: rgba(0, 0, 0, 0.527);
 }
+
+.sec5text h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgba(0, 0, 0, 0.863);
+    font-size: 50px;
+    margin-left: 22rem;
+    
+    
+}
+
+.sec5text {
+    background-image: url(../img/Depositphotos_183355822_l-2015-min.jpg);
+    /* background-color: #2939907c; */
+    padding:5rem ;
+    margin-top: 15rem;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+.sec5 h4 {
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.sec5one{
+  display: flex;
+    margin-bottom: 1rem;
+    margin-left: 9rem;
+    width: 80%;
+    margin: auto;
+
+}
+
+.sec5one img{
+    width: 30vw;
+    height: 45vh;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.sec5one a{
+    text-decoration: none;
+}
+
+.sec5one-div{
+    margin-left: 10rem;
+    margin-top: 6rem;
+
+}
+
+.sec6{
+    
+    margin-top: -10px;
+    background-color: #293890;
+    padding: 4rem;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec6 p {
+    text-align: center;
+}
+
+ .image-div1 img{
+    margin-top:20rem;
+    width: 100vw;
+    margin-left: -10px; 
+    
+}
+
+
