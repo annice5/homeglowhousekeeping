@@ -138,8 +138,10 @@ span {
 }
 
 .sec1text p {
-    font-size: 20px;
+    font-size: 18px;
     color: #666666;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .sec2text {
@@ -175,12 +177,24 @@ span {
 
 }
 
+/* .sec2iandt-image{
+    
+    margin-top: 15rem;
+    margin-left: 40rem;
+    
+}
+.sec2iandt-image img{
+    width: 5vw;
+    height: 10vh;
+} */
+
+
 .sec2iandt p {
     margin-left: 6rem;
-    font-style: italic;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.555);
-    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: black;
+    
 
 }
 
@@ -216,6 +230,7 @@ span {
 .sec3 p {
     text-align: left;
     margin-left: 20rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     margin-top: 5rem;
 
@@ -238,8 +253,8 @@ span {
 
 }
 
-#btn {
-    margin-top: 6rem;
+.btn {
+    margin-top: 3rem;
     margin-left: 35rem;
     border-radius: 2rem;
     padding: 15px;
@@ -248,14 +263,14 @@ span {
     background-color: #89BE60;
 }
 
-#btn a {
+.btn a {
     text-decoration: none;
     color: black;
     font-size: large;
 
 }
 
-#btn:hover {
+.btn:hover {
     background-color: transparent;
     border: solid black;
 }
@@ -341,8 +356,8 @@ span {
 }
 
 .sec5one img {
-    width: 24vw;
-    height: 27vh;
+    width: 23vw;
+    height: 28vh;
     margin-left: 5rem;
     margin-top: 5rem;
 }
@@ -391,4 +406,10 @@ span {
     margin-top: 20rem;
     width: 100vw;
     margin-left: -10px;
+}
+
+.footer img{
+    width:10vw;
+    height: 10vw;
+    margin-top: 4rem;
 }
