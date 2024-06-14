@@ -177,16 +177,6 @@ span {
 
 }
 
-/* .sec2iandt-image{
-    
-    margin-top: 15rem;
-    margin-left: 40rem;
-    
-}
-.sec2iandt-image img{
-    width: 5vw;
-    height: 10vh;
-} */
 
 
 .sec2iandt p {
@@ -387,17 +377,20 @@ span {
 
     margin-top: -10px;
     background-color: #293890;
-    padding: 4rem;
+    padding: 1rem;
     margin-left: -10px;
     margin-right: -10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 
 }
 
 .footer p {
-    text-align: center;
+    margin-top: 4rem;
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 20px;
+
 }
 
 
@@ -409,7 +402,7 @@ span {
 }
 
 .footer img{
-    width:10vw;
-    height: 10vw;
+    width:7vw;
+    height: 6vw;
     margin-top: 4rem;
 }
